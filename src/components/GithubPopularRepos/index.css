@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.git-hub-popular-repos-container {
+  height: 100vh;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.popular-heading {
+  font-family: 'Lobster';
+  font-size: 50px;
+}
+
+.language-filter-container {
+  width: 35%;
+  /* border: 2px solid black; */
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+}
+.repository-items-container {
+  border: 2px solid black;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+  flex-wrap: wrap;
+}

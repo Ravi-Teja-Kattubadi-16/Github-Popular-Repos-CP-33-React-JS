@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.repository-item-container {
+  border: 2px solid blue;
+  font-family: 'Roboto';
+  background-color: #f8f8ff;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 45px;
+  padding-right: 20px; */
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 20px;
+}
+.repository-image {
+  width: 37%;
+  margin: 0;
+}
+.details-container {
+  border: 2px solid black;
+}
+.repository-heading {
+  font-size: 25px;
+  color: #e73959;
+  align-self: flex-start;
+  margin-bottom: 12px;
+  margin-top: 15px;
+  /* border: 2px solid red; */
+}
+.repository-details-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 2px solid black; */
+  padding-top: 0;
+  padding-bottom: 0;
+  align-self: flex-start;
+}
+.repository-details-description {
+  font-size: 17px;
+  color: #1e293b;
+  font-weight: normal;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+.repository-details-image {
+  height: 20px;
+  width: 20px;
+  margin-right: 11px;
+}
